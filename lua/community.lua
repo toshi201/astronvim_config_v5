@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
@@ -11,6 +11,11 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.colorscheme.vscode-nvim" },
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  { import = "astrocommunity.code-runner.overseer-nvim" },
+  -- { import = "astrocommunity.recipes.vscode-icons" },
   -- import/override with your plugins folder
 }
